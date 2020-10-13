@@ -1,0 +1,26 @@
+{
+    "author": "Laporte Nicolas",
+    "content_scripts": [
+         {
+            "matches":[
+              "https://*/*"
+            ],
+            "css": [
+              "public/style/hello_world.css"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle",
+            "all_frames": false
+        }
+    ],
+    "icons": {
+      "48": "public/images/icon-48-48.png",
+      "128": "public/images/icon-128-128.png"
+    },
+    "name": "Hello World",
+    "offline_enabled": false,
+    "manifest_version": 2,
+    "version": "0.0.1"
+}
