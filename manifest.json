@@ -5,9 +5,6 @@
             "matches":[
               "https://*/*"
             ],
-            "css": [
-              "public/style/hello_world.css"
-            ],
             "js": [
                 "content.js"
             ],
